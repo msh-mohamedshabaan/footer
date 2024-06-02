@@ -1,0 +1,58 @@
+/*start rolls */
+:root {
+    --color-blue1 :#5a108a; 
+    --color-blue2 :#a435f0; 
+    --text-color-purple:#5624d0;; 
+    --color-gray : #d5d0d039 ;
+    --color-gray-text : #6a6f73 ;
+
+    --font-stack-text: 'Udemy Sans', 'SF Pro Text', -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    --font-stack-heading-serif: SuisseWorks, Georgia, Times, 'Times New Roman', serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul li {
+    list-style: none;
+}
+
+.clearfix {
+    clear: both;
+}
+body {
+    font-family: "josefin sans", sans-serif;
+}
+
+
+  /* :start footer */
+ footer {
+  background-color: #1c1d1f;
+  padding: 40px 0;
+  color: #fff;
+}
+footer h5 {
+  color: #ccc;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #ec5252;
+  text-decoration: none;
+}
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  margin-right: 10px;
+}
+/* :end  footer */
